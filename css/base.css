@@ -1,0 +1,39 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Rubik", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    backdrop-filter: blur(14px);
+    background-color: #000;
+
+    background:
+        linear-gradient(180deg, #000 0%, #4a2800 100%);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 65px;
+}
+
+.hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hero-title {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    line-height: 1.552;
+    color: #e1dbdb;
+}
