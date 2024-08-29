@@ -280,6 +280,7 @@ header {
 /********************spider section*************************/
 
 .sectionSpiderMan {
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
@@ -323,6 +324,7 @@ header {
 
 
 .advence {
+    padding-top: 80px;
     padding-bottom: 80px;
     background: linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.65)),
         url('../img/section3.webp') no-repeat center center/cover;
@@ -403,4 +405,210 @@ header {
     background-color: #fff;
     border-radius: 50%;
     padding: 10px;
+}
+
+/******************************section ourProject********************/
+
+.ourProject {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.ourProject-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourProject-list {
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 27px;
+    margin-bottom: 70px;
+}
+
+/********************************section submit info***************/
+
+.info {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.info-subtitle {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.875;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.note-info {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.form-home {
+    background: #1c140f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.containerText-inIput {
+    width: 636px;
+    margin-right: 40px;
+}
+
+.info-header3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.info-note {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.containerInput {
+    max-width: 385px;
+    display: flex;
+
+}
+
+
+::placeholder {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 13px;
+    color: #898989;
+    padding: 14px 20px;
+}
+
+.input {
+    border-radius: 8px;
+    width: 386px;
+    height: 48px;
+    padding: 6px 10px;
+}
+
+
+.btnInfo {
+    position: relative;
+    right: 100px;
+    top: 6px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+    width: 104px;
+    height: 37px;
+    background: #dc7000;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+
+}
+
+/*******************Footer home*************************************/
+
+.footer-home {
+    background: #070707;
+}
+
+.footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer-top {
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-around;
+
+}
+
+.logo-container {
+    display: flex;
+    max-width: 340px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo-header {}
+
+.aboutUs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.aboutUs-container>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-address-text {}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-phone {}
+
+
+.footerIcon-list {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footerIcon-list>li {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.footer-social-link {}
+
+.footer-icon {}
+
+.icon-list {}
+
+
+
+
+.footer-bottom {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.footer-bottom-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.906;
+    color: #fff;
 }
