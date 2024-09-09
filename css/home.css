@@ -40,9 +40,7 @@
 }
 
 
-
-
-
+/*/
 /******************************************************/
 header {
     width: 100%;
@@ -58,13 +56,7 @@ header {
 }
 
 .logo-header {
-    /*
-    font-family: Poppins, sans-serif;
-    font-weight: 800;
-    font-size: 29px;
-    line-height: 1.535;
-    color: #fff;
-    margin-right: 15%;*/
+
     display: inline-flex;
     border-radius: 15px;
     font-family: Poppins, sans-serif;
@@ -246,7 +238,14 @@ header {
     color: #fff;
     border: none;
     border-radius: 15px;
+    padding: 5px 10px;
     background: linear-gradient(to right, #1e130c, #885235);
+    transition: all 0.3s ease;
+}
+
+.btnSeeMore:hover {
+    background: linear-gradient(to right, #fa8305, #b6b8b9);
+    color: #1e130c;
 }
 
 .viewSpoler-list {
@@ -503,6 +502,9 @@ header {
     padding: 6px 10px;
 }
 
+input:focus {
+    outline: none;
+}
 
 .btnInfo {
     position: relative;
@@ -519,7 +521,6 @@ header {
     font-size: 13px;
     text-align: center;
     color: #fff;
-
 }
 
 /*******************Footer home*************************************/
@@ -548,13 +549,13 @@ header {
     gap: 15px;
 }
 
-.logo-header {}
+
 
 .aboutUs-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .aboutUs-container>ul {
@@ -566,17 +567,17 @@ header {
 .contactUs {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 
-.footer-address-text {}
+
 
 .footer-contacts {
     display: flex;
     flex-direction: column;
 }
 
-.footer-phone {}
+
 
 
 .footerIcon-list {
@@ -589,16 +590,15 @@ header {
     background-color: #fff;
     border-radius: 50%;
     padding: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.footer-social-link {}
-
-.footer-icon {}
-
-.icon-list {}
-
-
-
+.footerIcon-list>li:hover {
+    background-color: #42040d;
+    transform: scale(1.2);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    fill: #fff;
+}
 
 .footer-bottom {
     padding: 25px 0;
