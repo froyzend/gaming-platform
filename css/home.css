@@ -40,6 +40,20 @@
 }
 
 
+/*<div style="position: absolute; left: 76%; top: 60%"><svg class="icon" width="196" height="154"><use href="./img/symbol-defs.svg#icon-Group-21"></use></svg></div><img src="./img/spiderMan.webp"
+alt="spider-man"
+width="1146"
+height="462"
+style="border-radius: 5px"
+/>
+/*
+/***********video**********/
+.video {
+    border-radius: 5px;
+    object-fit: cover;
+    filter: drop-shadow(2px 1px 16px #ce1c1c);
+}
+
 /*/
 /******************************************************/
 header {
@@ -240,11 +254,11 @@ header {
     border-radius: 15px;
     padding: 5px 10px;
     background: linear-gradient(to right, #1e130c, #885235);
-    transition: all 0.3s ease;
+    transition: background 0.3s ease-out, color 0.3s ease-out;
 }
 
 .btnSeeMore:hover {
-    background: linear-gradient(to right, #fa8305, #b6b8b9);
+    background: linear-gradient(to right, #885235, #b6b8b9);
     color: #1e130c;
 }
 
@@ -539,7 +553,8 @@ input:focus {
     display: flex;
     padding: 50px 0;
     justify-content: space-around;
-
+    border-bottom: 0.80px solid #c0b8b8fc;
+    margin-bottom: 28px;
 }
 
 .logo-container {
@@ -587,7 +602,6 @@ input:focus {
 }
 
 .footerIcon-list>li {
-    background-color: #fff;
     border-radius: 50%;
     padding: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;

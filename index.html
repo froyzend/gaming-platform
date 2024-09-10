@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body id="home">
     <div class="sticks">
       <img class="joystick" src="./img/joy_stick.png" alt="stick" />
       <img
@@ -41,8 +41,8 @@
         height="80"
       />
     </div>
-
-    <header id="home">
+    
+    <header>
       <div class="container-header container">
         <a class="logo-header" href="#">
           <img
@@ -56,14 +56,15 @@
         <nav class="nav">
           <ul class="nav-list">
             <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#" class="nav-link">About Us</a></li>
-            <li><a href="#" class="nav-link">Portfolio</a></li>
-            <li><a href="#" class="nav-link">News</a></li>
-            <li><a href="#" class="link-btn">Contact Us</a></li>
+            <li><a href="page/aboutUs.html" class="nav-link">About Us</a></li>
+            <li><a href="/page/service.html" class="nav-link">Portfolio</a></li>
+            <li><a href="/page/news.html" class="nav-link">News</a></li>
+            <li><a href="/page/contact.html" class="link-btn">Contact Us</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    
     <main>
       <section class="hero">
         <div class="hero-container">
@@ -156,18 +157,10 @@
               ever since the 1500s
             </p>
           </div>
-          <div style="position: absolute; left: 76%; top: 60%">
-            <svg class="icon" width="196" height="154">
-              <use href="./img/symbol-defs.svg#icon-Group-21"></use>
-            </svg>
-          </div>
-          <img
-            src="./img/spiderMan.webp"
-            alt="spider-man"
-            width="1146"
-            height="462"
-            style="border-radius: 5px"
-          />
+          <video class="video" width="100%" height="100%" controls>
+  <source src="/vidro/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
         </div>
       </section>
       <section class="advence">
@@ -442,7 +435,7 @@
             
         </div>
         <div class="footer-bottom">
-          <img src="./img/Line1.svg" alt="line" />
+         
           <p class="footer-bottom-text">
             Copyright ® 2021 Lorem All rights Recerved
           </p>
