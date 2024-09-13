@@ -1,0 +1,21 @@
+.frame-hero {
+    padding-top: 20px;
+}
+
+.hero-img {
+    z-index: 10;
+    border-radius: 5px;
+
+}
+
+.hero-text {
+    z-index: 5;
+}
+
+.frame-logo {
+    font: size 15px;
+}
+
+.frame {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

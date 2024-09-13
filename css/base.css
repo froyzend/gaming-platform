@@ -7,15 +7,74 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     backdrop-filter: blur(14px);
     background-color: #000;
-
-    background:
-        linear-gradient(180deg, #000 0%, #4a2800 100%);
+    background: linear-gradient(180deg, #000 0%, #4a2800 100%);
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
+
+.cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #c5b3e6;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 12s ease-in forwards infinite;
+}
+
+.cube:nth-child(2n) {
+    border-color: #ffb6c1;
+}
+
+.cube:nth-child(2) {
+    animation-delay: 2s;
+    left: 28vw;
+    top: 20vh;
+}
+
+.cube:nth-child(3) {
+    animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+}
+
+.cube:nth-child(4) {
+    animation-delay: 6s;
+    left: 90vw;
+    top: 15vh;
+}
+
+.cube:nth-child(5) {
+    animation-delay: 8s;
+    left: 3vw;
+    top: 65vh;
+}
+
+.cube:nth-child(6) {
+    animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+}
+
+/* Анимация для кубов */
+@keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+
 
 .container {
     max-width: 1280px;
