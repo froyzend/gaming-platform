@@ -1,0 +1,186 @@
+.about-hero {
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+
+
+.about-container {
+    display: flex;
+    gap: 100px;
+}
+
+.about-container h5 {
+    margin-bottom: 27px;
+}
+
+.about-heroText {
+    width: 425px;
+    height: 450px;
+}
+
+.about-subtitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.805;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.note-about {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2.085;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.about-button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 40px;
+    width: 176px;
+    height: 47px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 20px;
+    background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
+    transition: all 0.3s ease;
+}
+
+/***********************Why work with us**********************************/
+
+.WhyWork {
+    padding-bottom: 100px;
+}
+
+.whyWork-subtitle {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 2;
+    color: #fff;
+    margin-bottom: 65px;
+}
+
+.whyWork-list {
+    display: flex;
+    gap: 40px;
+}
+
+.aboutItem {
+    border-radius: 20px;
+    box-shadow: 0 4px 94px 0 rgba(0, 0, 0, 0.15);
+    background: #1c140f;
+    padding: 30px;
+}
+
+.aboutTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutTextColor {
+    width: 140px;
+    padding: 8px 15px;
+    font-family: "Poppins",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #fff;
+    border-radius: 8px;
+    background-color: rgba(176, 0, 220, 0.11);
+    margin-bottom: 19px;
+}
+
+
+.noteHeader {
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+    color: #fff;
+}
+
+.aboutNote {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.color2 {
+    background-color: rgba(220, 66, 0, 0.11);
+}
+
+.color3 {
+    background-color: rgba(0, 220, 141, 0.11);
+}
+
+/*********************anonsGame*********************************/
+
+.anonsGame {
+    background-color: #1c140f;
+    padding-top: 100px;
+}
+
+
+.anonsGame-flex {
+    display: flex;
+    gap: 100px;
+}
+
+
+.containerAnonsGameText {
+    padding: 25px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*************************our team********************************/
+
+.OurTeam {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.teamHeader {
+    margin-bottom: 50px;
+}
+
+
+.OurTeam-list {
+    display: flex;
+    gap: 25px;
+}
+
+.ourTeam-item {
+    background-color: #1c140f;
+    border-radius: 20px;
+    padding: 35px 80px;
+    text-align: center;
+}
+
+.OurTeam-subtitle {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 2.025;
+    color: #fff;
+}
+
+.OurTeam-note {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2.025;
+    color: #e8e8e8;
+}
