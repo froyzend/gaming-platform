@@ -197,7 +197,6 @@ textarea {
 
 .btnSubmit {
     background: #dc7000;
-
     padding: 15px 20px;
     border: none;
     border-radius: 10px;
@@ -207,6 +206,12 @@ textarea {
     font-size: 16px;
     line-height: 2.043;
     color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnSubmit:hover {
+    background-color: #9d1414d7;
+    color: #ece3d8d7;
 }
 
 

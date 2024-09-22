@@ -50,7 +50,11 @@
     justify-content: space-around;
     padding: 15px 20px;
     background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-button:hover {
+    background: linear-gradient(113deg, #3e3327 0%, #fb9e3c 100%);
 }
 
 /***********************Why work with us**********************************/
@@ -125,6 +129,7 @@
 }
 
 /*********************anonsGame*********************************/
+
 
 .anonsGame {
     background-color: #1c140f;

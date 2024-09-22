@@ -12,14 +12,15 @@
     transition: all 0.3s ease-in-out;
 }
 
+/*
 .search-container:hover {
     transform: scale(1.1);
-}
+}*/
 
 .search-icon {
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 18px;
     transform: translateY(-50%);
     transition: all 0.3s ease;
 }
@@ -32,7 +33,7 @@
     height: 49px;
     background-color: #1c140f;
     border: none;
-    transition: all 0.3s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 
 
