@@ -108,9 +108,16 @@
     color: #fff;*/
     font-family: -webkit-body;
     line-height: 1.8;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 34px;
     margin-bottom: 20px;
+    /*
+    filter: drop-shadow(2px 1px 16px #acacac);
+    background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202305/1515/c8388641302e1fd8f8f1044f13b398027f188eb695a0d652.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
 }
 
 
