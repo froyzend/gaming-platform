@@ -1,0 +1,159 @@
+.service-hero {
+    padding: 80px 0;
+}
+
+.container-hero-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.stats-wrapper {
+    background-color: #1c140f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    max-width: 1140px;
+}
+
+.stat-item {
+    padding: 60px 70px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.stat-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60%;
+    background-color: #fff;
+}
+
+.stat-icon img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.service-subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.895;
+    color: #fff;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service-game1 {
+    padding: 70px 0;
+}
+
+
+.service-subtitle {
+    margin-bottom: 12px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.805;
+    color: #fff;
+}
+
+.service-note {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.875;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.service-list-check {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/******************Mortal Kombat****************/
+
+
+.service-game2 {
+    padding: 80px 0;
+}
+
+
+.mortalKombat-subtitle {
+    /*font-size: 30px;
+    color: #fff;*/
+    font-family: -webkit-body;
+    line-height: 1.8;
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+
+.mortalKombat-note {
+    font-family: -webkit-body;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.videoMk {
+    border-radius: 10px;
+    object-fit: cover;
+    filter: drop-shadow(2px 1px 16px #ce1c1c);
+}
+
+.hidden {
+    display: none;
+    font-family: -webkit-body;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 17px;
+    color: #fff;
+}
+
+.btnReadMoreMk {
+    background: #dc7000;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/******************Kiber Pank****************/
+
+.service-game3 {
+    padding: 80px 0;
+}
