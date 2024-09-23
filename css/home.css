@@ -409,6 +409,7 @@ header {
 }
 
 .container-icon:hover {
+    -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     border-radius: 20px;
     transform: scale(1.2);

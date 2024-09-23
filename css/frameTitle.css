@@ -1,5 +1,7 @@
 .frame-hero {
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
 }
 
 .hero-img {
