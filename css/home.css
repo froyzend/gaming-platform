@@ -124,9 +124,14 @@ header {
     transition: width 0.3s ease;
 }
 
-.nav-link:hover::after,
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
 .nav-link.active::after {
     width: 100%;
+    /* Устанавливаем ширину для активной ссылки */
 }
 
 .link-btn {
